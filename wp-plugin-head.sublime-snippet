@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/*
+Plugin Name: ${1:Plugin Name}
+Description: ${2:Plugin Description} 
+Version: 1.0
+Author: ${3:Jason Resnick} 
+Author URI: ${4:http://www.rezzz.com} 
+License: GPL2
+*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wppluginhead</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

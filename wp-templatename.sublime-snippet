@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<?php 
+/*
+ * Template Name: ${1:Index Page} 
+ *
+ */ ?>
+]]></content>
+	<tabTrigger>wptemplatename</tabTrigger>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+function ${1:jr}_scripts()
+{
+	// Register the script for this theme:
+  	wp_register_script( '${2:filename}', get_stylesheet_directory_uri() . '/js/${2:filename}.js' ${3:, array( 'jquery', 'jquery-ui-core' )} );
+
+	wp_enqueue_script( '${2:filename}' );
+}
+add_action( 'wp_enqueue_scripts', '${1:jr}_scripts' );    
+]]></content>
+	<tabTrigger>wpenqueuefunction</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

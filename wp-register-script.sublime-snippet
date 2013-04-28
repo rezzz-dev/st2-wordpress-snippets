@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+	// Register the script for this theme:
+  	wp_register_script( '${1:filename}', get_stylesheet_directory_uri() . '/js/${1:filename}.js' );
+
+	wp_enqueue_script( '${1:filename}' );
+]]></content>
+	<tabTrigger>wpregisterscript</tabTrigger>
+</snippet>

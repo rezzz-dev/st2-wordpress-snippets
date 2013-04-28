@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+function jr_hide_admin_bar_from_front_end(){
+  if (is_blog_admin()) {
+    return true;
+  }
+  return false;
+}
+add_filter( 'show_admin_bar', 'jr_hide_admin_bar_from_front_end' );
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wphideadminbar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
